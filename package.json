@@ -4,10 +4,15 @@
   "description": "setup network settings using nmcli",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint *.js"
   },
   "author": "ikesato",
   "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "eslint-config-google": "^0.9.1"
+  },
   "dependencies": {
     "inpath": "^1.0.2",
     "pidof": "^1.0.2",
