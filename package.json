@@ -7,5 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ikesato",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "inpath": "^1.0.2",
+    "pidof": "^1.0.2",
+    "read": "^1.0.7"
+  }
 }
